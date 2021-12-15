@@ -688,35 +688,35 @@
                       </h5>
                     </div>
                     <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form method="post" role="form" class="php-email-form" name="contact" data-netlify="true" netlify>
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" required>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Tu motivo" required>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                              <textarea class="form-control" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
                             </div>
                           </div>
                           <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Cargando!</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="" class="button button-a button-big button-rouded">Enviar Mensaje</button>
+                            <button type="submit" class="button button-a button-big button-rouded">Enviar Mensaje</button>
                           </div>
                         </div>
                       </form>
@@ -725,15 +725,14 @@
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
-                        Póngase en contacto
+                        Estaremos en contacto
                       </h5>
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        Al enviar este formulario nos pondremos en contacto a la dirección de correo que proporcionó.
+                        Según lo solicitado se estará proporcionando la información de la consulta, servicio o los servicios en los que está interesado.
+                        De antemano la gratitud por su interés con SoldeSolutions!
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-geo-alt"></span> Lima, Lima, Perú</li>
@@ -768,12 +767,6 @@
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright <strong>SoldeSolutions</strong>. All Rights Reserved</p>
             <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
               Designed by <a href="https://owenybacker.com/terax.html" target="_blank">TerAx</a>
             </div>
           </div>
